@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Exam{
+    
+    public static void main(String[] args){
+        
+        System.out.print("Input Exam No.1 : ");
+        Scanner scan1 = new Scanner(System.in);
+        float exam1 = scan1.nextFloat();
+
+        System.out.print("Input Exam No.2 : ");
+        Scanner scan2 = new Scanner(System.in);
+        float exam2 = scan2.nextFloat();
+
+        System.out.print("Input Exam No.3 : ");
+        Scanner scan3 = new Scanner(System.in);
+        float exam3 = scan3.nextFloat();
+        System.out.println("An exam No.1 : "+exam1);
+        System.out.println("An exam No.2 : "+exam2);
+        System.out.println("An exam No.3 : "+exam3);
+        System.out.println("An average of exams is : "+((exam1+exam2+exam3)/3));
+        
+    }
+}
